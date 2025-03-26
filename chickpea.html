@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>foodie place</title>
+<style>
+*
+{
+margin:0;
+padding:0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+h1
+{
+text-align: center;
+color:green;
+padding:20px;
+}
+nav
+{
+background-colour: lime;
+display: grid:;
+place-items: center;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav ul a
+{
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+color: #000;
+transition: 0.2s ease-in;
+font-size: 18px;
+}
+nav ul a:hover
+{
+background-color: green;
+color: white;
+}
+.items
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-columns-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img
+{
+width: 300px;
+height: 300px;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+}
+.item img:hover
+{
+    transform: scale(1.04);
+}
+.item hd{
+    padding: 5px;
+    text-algin: center;
+}
+.item button {
+    padding: 5px 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.item button:hover
+{
+transform: scale(1.08);  
+}
+@media screen and (max-width: 1000px)
+{
+    .items
+    {
+       grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .items
+    {
+       grid-template-columns: repeat(1, 1fr);
+    }
+}
+</style>
+</head>
+<body>
+<h1>Foodie Place</h1>
+<nav>
+	<ul>
+	<a href="home.html"><li>Home</li></a>
+	<a href="recipes1.html"><li>Recipes</li></a>
+	<a href="about.html"><li>About</li></a>
+	<a href="contact.html"><li>Contact</li></a>
+	</ul>
+</nav>
+<h2>Marry Me Chickpeas</h2>
+<p2>These marry me chickpeas combine convenient canned chickpeas with a rich sun-dried tomato and coconut sauce, for a delicious vegetarian dinner. Serve over rice.</p2>
+<section class="items">
+ <div class="item">
+<h3> Ingredients </h3>
+<ul Type= "circle">
+<li>1 tablespoon grapeseed oil or olive oil, or more as needed</li>
+
+<li>2 cloves garlic, chopped</li>
+
+<li>1 shallot, chopped</li>
+
+<li>1 teaspoon smoked paprika, or more to taste</li>
+
+<li>1 teaspoon dried oregano</li>
+
+<li>1/4 teaspoon salt</li>
+
+<li>1/4 teaspoon red pepper flakes</li>
+
+<li>2 tablespoons tomato paste</li>
+
+<li>1/3 cup chopped sun-dried tomatoes in oil</li>
+
+<li>2 (15 ounce) cans chickpeas</li>
+
+<li>2 tablespoons lemon juice</li>
+
+<li>1 cup vegetable broth</li>
+
+<li>1 cup coconut milk</li>
+</ul>
+</div>
+<div class="item"> <img src="chickpea.jpg" alt="half done"></div>
+<div class="item">
+
+<h3>Directions</h3>
+ <div class="item">
+<h4>Step 1</h4>
+<p>
+Heat oil in a cast iron skillet over medium heat. Add shallots and garlic. Cook until fragrant, 1 to 2 minutes.
+
+</p>
+  </div>
+    
+<h4>Step 2</h4>
+<p>
+Add paprika, oregano, salt,  and pepper flakes, and cook and stir to toast spices, about 1 minute. Add tomato paste, sundried tomatoes, and chickpeas, and stir well to fully coat chickpeas.
+</p>
+    </div>
+<div class="item">
+<h4>Step 3</h4>
+<p> Add vegetable broth and lemon juice, cover, and simmer for 10 minutes. Add a little more broth if mixture seems too thick. Add coconut milk, stir well, and remove from heat.</p>
+    </div> 
+</body>
+</html>

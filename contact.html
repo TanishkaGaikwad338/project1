@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Food Recipes</title>
+    <style>
+     *    
+{
+margin:0;
+padding:0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+h1
+{
+text-align: center;
+color:green;
+padding:20px;
+}
+nav
+{
+background-colour: lime;
+display: grid;
+place-items: center;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav ul a
+{
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+color: #000;
+transition: 0.2s ease-in;
+font-size: 18px;
+}
+nav ul a:hover
+{
+background-color: green;
+color: white;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #ff6600;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #e65c00;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+</style>
+</head>
+<body>
+<h1>Foodie Place</h1>
+<nav>
+	<ul>
+	<a href="home.html"><li>Home</li></a>
+	<a href="recipes1.html"><li>Recipes</li></a>
+	<a href="about.html"><li>About</li></a>
+	<a href="contact.html"><li>Contact</li></a>
+	</ul>
+    <div>
+        <h2>Contact Us</h2>
+        <form action="recipes1.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+<button type="submit">Send Message </button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email:foodrecipes@gmail.com</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Follow us on social media!</p>
+        </div>
+    </div>
+
+</body>
+</html>

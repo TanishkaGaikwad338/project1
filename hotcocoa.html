@@ -1,0 +1,168 @@
+<html>
+<head>
+	<title>foodie place</title>
+<style>
+*
+{
+margin:0;
+padding:0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+h1
+{
+text-align: center;
+color:green;
+padding:20px;
+}
+nav
+{
+background-colour: lime;
+display: grid:;
+place-items: center;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav ul a
+{
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+color: #000;
+transition: 0.2s ease-in;
+font-size: 18px;
+}
+nav ul a:hover
+{
+background-color: green;
+color: white;
+}
+.items
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-columns-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img
+{
+width: 300px;
+height: 300px;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+}
+.item img:hover
+{
+    transform: scale(1.04);
+}
+.item hd{
+    padding: 5px;
+    text-algin: center;
+}
+.item button {
+    padding: 5px 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.item button:hover
+{
+transform: scale(1.08);  
+}
+@media screen and (max-width: 1000px)
+{
+    .items
+    {
+       grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .items
+    {
+       grid-template-columns: repeat(1, 1fr);
+    }
+}
+</style>
+</head>
+<body>
+<h1>Foodie Place</h1>
+<nav>
+	<ul>
+	<a href="home.html"><li>Home</li></a>
+	<a href="recipes1.html"><li>Recipes</li></a>
+	<a href="about.html"><li>About</li></a>
+	<a href="contact.html"><li>Contact</li></a>
+	</ul>
+</nav>
+<h2>Creamy Hot Cocoa</h2>
+<p2>This cozy hot chocolate is so comforting on a dreary day. It makes the kitchen smell wonderful and it's good for the soul.</p2>
+<section class="items">
+ <div class="item">
+<h3> Ingredients </h3>
+<ul Type= "circle">
+<li>¾ cup white sugar, or to taste</li>
+
+<li>⅓ cup unsweetened cocoa powder</li>
+
+<li>1 pinch salt</li>
+
+<li>⅓ cup boiling water</li>
+
+<li>3 ½ cups milk</li>
+
+<li>¾ teaspoon vanilla extract</li>
+
+<li>½ cup half-and-half cream</li>
+</ul>
+</div>
+
+<h3>Directions</h3>
+ <div class="item">
+<h4>Step 1</h4>
+<p>
+Gather the ingredients.
+  
+      <img src="hotcocoa step1.jpg" alt="Half Done"/></p>
+    </div>
+<div class="item">
+<h4>Step 2</h4>
+<p>
+Combine sugar, cocoa powder, and salt in a saucepan; add boiling water and whisk until smooth. Bring mixture to a simmer, stirring continuously to prevent scorching, and cook for 2 minutes.
+  
+      <img src="hotcocoa step2.jpg" alt="Half Done"/></p>
+    </div>
+<div class="item">
+<h4>Step 3</h4>
+<p>Stir in milk and heat until very hot without boiling.
+
+      <img src="hotcocoa step3.jpg" alt="Half Done"/></p>
+    </div> 
+    <div class="item">
+    <h4>Step 4</h4>
+<p>Remove from heat; add vanilla.
+
+      <img src="hotcocoa step4.jpg" alt="Half Done"/></p>
+    </div> 
+    <div class="item">
+<h4>Step 5</h4>
+<p>Add cream to each mug to help cool cocoa to drinking temperature then divide hot cocoa between 4 mugs.
+      <img src="hotcocoa step5.jpg" alt="Half Done"/></p>
+    </div> 
+    <div class="item">
+<h4>Step 6</h4>
+<p>Serve hot and enjoy!
+      <img src="hotcocoa step6.jpg" alt="Half Done"/></p>
+    </div>   
+</body>
+</html>

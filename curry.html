@@ -1,0 +1,155 @@
+<html>
+<head>
+	<title>foodie place</title>
+<style>
+*
+{
+margin:0;
+padding:0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+h1
+{
+text-align: center;
+color:green;
+padding:20px;
+}
+nav
+{
+background-colour: lime;
+display: grid:;
+place-items: center;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav ul a
+{
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+color: #000;
+transition: 0.2s ease-in;
+font-size: 18px;
+}
+nav ul a:hover
+{
+background-color: green;
+color: white;
+}
+.items
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-columns-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img
+{
+width: 300px;
+height: 300px;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+}
+.item img:hover
+{
+    transform: scale(1.04);
+}
+.item hd{
+    padding: 5px;
+    text-algin: center;
+}
+.item button {
+    padding: 5px 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.item button:hover
+{
+transform: scale(1.08);  
+}
+@media screen and (max-width: 1000px)
+{
+    .items
+    {
+       grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .items
+    {
+       grid-template-columns: repeat(1, 1fr);
+    }
+}
+</style>
+</head>
+<body>
+<h1>Foodie Place</h1>
+<nav>
+	<ul>
+	<a href="home.html"><li>Home</li></a>
+	<a href="recipes1.html"><li>Recipes</li></a>
+	<a href="about.html"><li>About</li></a>
+	<a href="contact.html"><li>Contact</li></a>
+	</ul>
+</nav>
+<h2>Vegan Jamaican Curry</h2>
+<p2>This vegan Jamaican curry dish is full of earthy goodness. The sautéed tofu combined with the boldness from the curry and creaminess from the coconut makes this dish a must try! Serve over rice.</p2>
+<section class="items">
+ <div class="item">
+<h3> Ingredients </h3>
+<ul Type= "circle">
+<li>2 tablespoons grapeseed oil</li>
+
+<li>1 (14 ounce) package tofu, cut into bite-sized cubes</li>
+
+<li>1 yellow onion, chopped</li>
+
+<li>1 red bell pepper, chopped</li>
+
+<li>2 to 3 tablespoons Jamaican yellow curry powder, divided</li>
+
+<li>1 small zucchini, cut into bite-sized pieces</li>
+
+<li>1/2 cup sliced cremini mushrooms or baby bellas</li>
+
+<li>1/4 cup coconut milk</li>
+
+<li>salt and freshly ground black pepper to taste</li>
+</ul>
+</div>
+
+<h3>Directions</h3>
+ <div class="item">
+<h4>Step 1</h4>
+<p>Heat grapeseed oil in a cast iron skillet over medium-high heat. Pat excess water from tofu with a paper towel, and fry tofu in the hot skillet until browned around the edges, about 4 minutes per side. Remove from skillet and set aside.
+</p>
+    </div>
+<div class="item">
+<h4>Step 2</h4>
+<p>
+Add onions, bell peppers, and 1 tablespoon curry powder to the skillet and sauté for 2 minutes. Add zucchini and mushrooms to the skillet; sauté for 3 minutes.
+</p>
+    </div>
+<div class="item">
+<h4>Step 3</h4>
+<p>Return tofu to the skillet, add 1 tablespoon curry powder, or more to taste, and mix well. Pour in coconut milk, stir well. Reduce heat to low, cover, and let simmer for 3 to 5 minutes. Season with salt and pepper.</p>
+    </div> 
+    <div class="item">
+  <p> 
+   <img src="curry.jpg" alt="Half Done"/></p>
+    </div> 
+</body>
+</html>
